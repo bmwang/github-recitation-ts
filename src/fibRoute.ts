@@ -1,6 +1,6 @@
 // Endpoint for querying the fibonacci numbers
 
-import fibonacci = require("./fib");
+import fibonacci from "./fib";
 
 import express = require("express");
 import {Request, Response} from 'express';
